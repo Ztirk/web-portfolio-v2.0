@@ -1,0 +1,7 @@
+.third-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #17202A;
+    scroll-snap-align: center;
+    
+}

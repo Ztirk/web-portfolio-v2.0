@@ -1,0 +1,54 @@
+.first-section {
+    background-color: #17202A;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.arrow {
+    position: absolute;
+    transform: rotate(-150deg);
+    height: 80px;
+     
+
+}
+
+.photo-of-me {
+    height: 500px;
+    transition: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    filter: drop-shadow(10px 6px 3px #000000)
+            drop-shadow(-1px -1px 0 #000000);
+    height: 50vh;
+
+
+}
+
+.photo-of-me:hover {
+    transform: rotateY(360deg);
+}
+
+.first-section > div > div {
+    border: 1px black solid;
+}
+
+
+.text {
+    border: 1px black solid;
+    color: red; 
+    font-size: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.text-name {
+    text-align: left;
+    color: #F6DDCC; 
+    font-size: 75px;
+}
